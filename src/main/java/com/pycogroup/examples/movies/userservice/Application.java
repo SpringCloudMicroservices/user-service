@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by tri.bui on 7/20/16.
  */
+@Configuration
 @SpringBootApplication
+@EnableAutoConfiguration
 @EnableEurekaClient
 public class Application {
     public static void main(String[] args) {
