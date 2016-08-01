@@ -7,4 +7,5 @@ eureka:
     hostname: ${service.hostname:localhost}
     nonSecurePort: 80
     nonSecurePortEnabled: true
+    preferIpAddress: true
 
