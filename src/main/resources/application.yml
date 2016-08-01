@@ -1,4 +1,10 @@
 spring.application.name: user-service
 server.port: 8000
 security.basic.enabled: false
-eureka.client.serviceUrl.defaultZone: ${eureka.url}/eureka
+eureka:
+  client.serviceUrl.defaultZone: ${eureka.url:http://localhost:7861}/eureka
+  instance:
+    hostname: ${service.hostname:localhost}
+    nonSecurePort: 80
+    nonSecurePortEnabled: true
+
