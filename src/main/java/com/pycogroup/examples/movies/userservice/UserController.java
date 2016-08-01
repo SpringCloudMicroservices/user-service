@@ -15,7 +15,7 @@ import java.util.Map;
 public class UserController {
     final Map<String, User> userStore = ImmutableMap.of(
             "kid", new User("kid", 5),
-            "adult", new User("adult", 30)
+            "adult", new User("adult", 18)
     );
 
     @RequestMapping("/{user}")
