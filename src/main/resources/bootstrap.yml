@@ -1,3 +1,0 @@
-spring.cloud.config.discovery.enabled: true
-spring.cloud.config.discovery.serviceId: 'config-server'
-eureka.client.serviceUrl.defaultZone: ${eureka.url:http://localhost:8761}/eureka

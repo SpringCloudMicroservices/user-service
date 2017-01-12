@@ -1,1 +1,0 @@
-web: java -Dserver.port=$PORT -Deureka.url=http://eureka.eureka -jar  build/libs/user-service-1.0-SNAPSHOT.jar
